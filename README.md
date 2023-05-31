@@ -25,33 +25,6 @@ Step 4: Manager Agent
 4.4. Document the final encryption and decryption algorithms and present them to the client or stakeholders.
 
 Please note that this is a high-level overview of the steps. The actual implementation will depend on the specific requirements of the task and the findings of the Research Agent.
-# GPTProMoat
-A privacy focused LLM data obfuscation tool that implements end-to-end encryption and prevents retraining on company data by GPT-4
-
-Step 1: Research Agent
-1.1. Research different encryption algorithms and their strengths and weaknesses.
-1.2. Evaluate the suitability of each algorithm for the given task.
-1.3. Identify potential vulnerabilities in each algorithm.
-1.4. Document the research findings and present them to the Manager Agent.
-
-Step 2: Encryption Agent
-2.1. Based on the research findings from the Research Agent, select the most suitable encryption algorithm.
-2.2. Develop the code for the encryption algorithm.
-2.3. Test the encryption algorithm to ensure it is functioning correctly.
-2.4. Document the encryption algorithm and present it to the Manager Agent.
-
-Step 3: Decryption Agent
-3.1. Develop the code for the decryption algorithm that corresponds to the encryption algorithm selected by the Encryption Agent.
-3.2. Test the decryption algorithm to ensure it is functioning correctly.
-3.3. Document the decryption algorithm and present it to the Manager Agent.
-
-Step 4: Manager Agent
-4.1. Evaluate the encryption and decryption algorithms developed by the Encryption and Decryption Agents.
-4.2. Determine if any changes or improvements need to be made to the algorithms.
-4.3. Coordinate with the Research Agent to identify any potential vulnerabilities in the algorithms and implement any necessary security measures.
-4.4. Document the final encryption and decryption algorithms and present them to the client or stakeholders.
-
-Please note that this is a high-level overview of the steps. The actual implementation will depend on the specific requirements of the task and the findings of the Research Agent.
 
 
 ## Encrypted Data
@@ -63,3 +36,13 @@ Please note that this is a high-level overview of the steps. The actual implemen
 |  2 | 7+k8BwWS7Ej9//NU1V4y5Q== | ixzyOgWXhpObgX1pcCY/cOhcQqy00T+tcSZPy0tvrfywY0E72e0bL6dLCSZGWUFtQ+JWipmCNfw= | VDslIaMTYXyzYS5zl5Ptt2JDnTwtLfQ= | jLY8RH81kksqb+qJhpjB+HP8HOKNmg== | +aYdrJkrQ8nvP74=         | vr5L4gkowDnnrRX245UJLmpV8hidY4LXVyAE                 | 9cF8CKy7U/H6gHBjqXo=             | 9ei7EEHwLFooXqStP2GYQdqnvbNpZIbUWYIRo8Ym7R0MhtOXoYdWo7c=         | DTqnsrTgcNQir81eNFzSPGg1m7il07213Fg/A6FU7IMZGim6sJLVjXHva0QqRw==     | G+NYEYWybIF+s209Tku7pr2CLfrqUHAQYw==     | LGj78D3OKw==     | bes=  | SA==     | fbk=     | aLc=                 | jMPo                 | ND0IeMs7pBGmC5WT7/P//FJl6A/TyDfv7Pz+                 | fi5UCStWaLtl8w== | bIAH     | O+eR     |
 |  3 | jSsNrgUnpnCADHQMGRx4mg== | dXxMG0LwscExRJoqJ4+ZJjOx1JDR44jc4vxI6bZVgDoadPdy5EtioFeE4jo=                 | Wg27KyK5gKYkdAsEoM7/D3E=         | BDAWStWLryH3Jr9qULSYUQ==         | sdMedHWnsVqrD20=         | fVnZtdBOOyDKZ58J+h+HZ8DqWs9AVk7daA15cmY=             | Dh+h8hM0I+rV2CW9aChyRL6GV3+2VAQ= | rKacemZvDrwjSccAu8WkJsDOUg+I56AU7Nb/OHE8WONFXAMwaXYmqH0RTrXsqTk= | BZYD63027+RiPgCNiO/Xp86ouKZveXCIMnmzzKVABA2ANewbh5KSmkkneeogh8Gqwg== | GpxwUc3Y2MvV2iOuAvYB1AuK/TGk             | l9L5oW01cw==     | 7V8=  | Kw==     | cJo=     | dsQ=                 | jzDP                 | SGpBSYzdtYs2eU/p+O37Y/Nj5uyYAvBc8RnnoE8=             | xyirhnfq6aA89Q== | VAmT     | f7vr     |
 |  4 | CRBRB3MBH4l9bbpkxJ4=     | W4aWCuqzUCKfh2SS2e0f6phBedeYq3sz6api8iPCUSQPAvGwyskVDGHkFZEkJw==             | wODqkqgB5e8HE65YXG7h3JiDSA==     | M7NhZgdNbkxJTZ7oOcfV+v0=         | ZlPE8BcPUCEVe5s=         | qOd4TXnqtK5ZP73uFjHWZA2ozQ==                         | gKLN4GwDjrwFJA2X                 | 4370vHMclQF7xy7061+6gKeM9A/8zw7fbuEGZLLQh4RqhM5aviLTROIeuOeAvEw= | QKsI1PY7vxz4pqUzW5ARBaOgLIV/zYG6PUtsv5jmZsurl2nG                     | ZaDiFaiAdNXrr1F0azi1xf0rbM8xjsAekehqdg== | Iq+pZFwbfhI=     | G0M=  | dg==     | pw==     | QuU=                 | Fu9q                 | IOcMVc4hAuJGqqmKbt7qikkRkQ==                         | de6n8H5+GGzj0Q== | p5un     | CD0f     |
+
+## Encrypted Data
+
+|    | name                     | address                                                                          | email                                | phone_number                 | social_security_number   | job                                                  | company                              | residence                                                                | current_location                                                         | website                                  | username             | age   | gender   | Grades   | preferred_language   | preferred_currency   | job_title                                            | national_id      | height   | weight   |
+|---:|:-------------------------|:---------------------------------------------------------------------------------|:-------------------------------------|:-----------------------------|:-------------------------|:-----------------------------------------------------|:-------------------------------------|:-------------------------------------------------------------------------|:-------------------------------------------------------------------------|:-----------------------------------------|:---------------------|:------|:---------|:---------|:---------------------|:---------------------|:-----------------------------------------------------|:-----------------|:---------|:---------|
+|  0 | PLfNe3cXxPTSXMiSXyz5Ew== | ocrRxgQcrXNA3TQjgB+Y9m8ZglUrLOxTpBMX5AmLFLaARWri2Q7SqAADytIOssmLhw==             | qLbp1AdF4TVDY1Te/zcrzUTL             | SDumXTWBkYtt0w==             | UGz/tmEZtM+x9L0=         | Qppj0LCyZ1dBmbyAUrHsnMjec/dOiZr1i9ZXpg==             | lINNyM3F9KdgE39Hj2mNo3Bxa2UsfWm3     | YPZklsWHk665uHVY7FBrNY6nQNy5s59t/y8JyoluJ7a99mwi9x5PoIYqKs5RRQ==         | d84sD76MoiaZ5y1BkIIOP3ACp1rf9oLnOYn7NnXaInfN2UhFxJXaI5jdjFRvX0aa7eo981dk | IxMNcm59NKs9D1ymSyjzI9stVB3US/c=         | ZsEUvafYr0y/         | qQo=  | qQ==     | sY0=     | WlU=                 | r8ej                 | LBq9UPwe130M7uvDduPk+04nrtVS2DgODW0b7A==             | XcvqaFI2Tvm/UQ== | UDtT     | DjKu     |
+|  1 | z+ekBOlx7AI4b9SpDOAIFg== | 5q66YJrP4WYjIYXfxWneIVn/IQnR+zFd4FkZuqxE7KYai7LQ3lCOQ9gX                         | isk8R5nhyNCmEPkZj2YGuWHBUw==         | pTfufcBF004x9sykC89xh59YicM= | MEM36KJ399oDAVI=         | S59rcs1ycwxLjg/Ue/E=                                 | kWCpRtuKzdtw3g==                     | 7nsVocZ459TfDQJfMhuCVuvjg1jJEN2EbS8jcoSGvw/fTVGKaA==                     | 1PikXX1BWetvve6dly+4tK2WbcenFX5l4Clvgu+DrsWnVGtSJS8u                     | f51N0BhxNV8JaiSx4sgPl22wgegJpPTj         | i7J4sHq87A==         | GSA=  | IA==     | 18s=     | ugBp                 | lOe6                 | MQXo1mK2h5sR+5DaC2c=                                 | +fll5dTfVGj69Q== | a3Fi     | wjIl     |
+|  2 | 65jiHKI2Ka9KLxE=         | 1rWxCSUDouidFyXS88ZzIWkQhXljgQwpzLiKT01OfDuXoHzBhZNBpd6Ywet/2P0=                 | gMv7iJjMiYtZwe7Q1PSz7MA=             | efy+UT2ZPdZCAUy3             | AIjFvmwkBiQubRQ=         | /OgZ+g8KcJE2YyhDQx4WR8elOCKP2sT3qdXM4AgYmlC2XpecaA== | e+Si7xW0ouW958Gf                     | ZetPJq8jWUAVzDGtepYivXr+9si5PDYKGSyaqvimkh5rGsBxV3VSoYyJBwE=             | n2dqP0y0vDg0P8VdVCHoxz5BEDG7XgWZvam8PjVpzVGii2bk+8Kp                     | fcR1H3RPKDAKH9eliG30znrIxxiFmzU=         | FxRZKqgqtHQ=         | VY4=  | Ow==     | vik=     | nR1u                 | yL4J                 | mh/7A925Q0jLH05JdvqODt+UTiXDYdG2T2PfgtqQcvSjXGnu7g== | Ir5EF7sFzcrBhg== | 5XlV     | 2RfN     |
+|  3 | 5GdPb1qTP1qBBOT/5mWzbA== | 48g2KRLhxbemgou2U62EgyENTBM2ALmUBJv92v9v+kfVC6Ky2GPFgxh0r9IiyDtdMw+hh/s45sPFYOw= | Syc8Jpp0H5jvZqAal1MxmzDwjwMl         | M3NnPfIBjs13SRHqTCAM9RPp     | 2TJ4ASGiwt4/038=         | g6ZpSMKQyxAA4UEQV7oq                                 | RtwUl0SZYI5HbUAss352L+GKG3uuywhr7g4= | UnNNUBd2QxVMs9boSmuhYmHidLZ1kDke9FoaNNEAUd53n39H7WJB8LxjYDXZkCkzeG8UnFqx | KXi5CMQmEPVEOwTkzUhEx1hFNBlfU3x3G8yWpefwzcVehq/+EwdOujW0Svrx             | WqW1ASbu38Q9LbatrAJWX3pJqWzwGFKt/TaZdw== | jQPjEMuyhjcigVQ=     | XUc=  | 5g==     | Cg==     | 5uI=                 | c9X5                 | EHaSkPxGLA0pYZLnAJDd                                 | LeqwoWSda4lt8A== | H4o+     | vtnj     |
+|  4 | RBJx5CRz+MvVjU6Z         | GQozrST77wJTY7KrwOf1/fC5nGF0bD5Q/t7SvYw/n3/tYrgvglqJFiziXxs9hWGbm7/jW0DerFI=     | gtkRhXMHn9IKcRb/GxwnP6GW9rmG1A2bU9sq | 8uY1epTnjU3mzg==             | 9RYCBeNjgrPKEx0=         | /NBeiJ34PLG+xwUb                                     | +CyU6UtndjHySJwBFvE=                 | DbhndlQrhYDkDWx2UrAFrvwx7ZRjORIibHP/utryv8HI+eQLZxoRCGj4cdCEtvuIv73c     | QKhVlr/7yBcyKZsUsKoZgkdo4kHisi10j8XNl1DgPVpH+wxA/q7dUuBS7oGHLntplw==     | ZFkFil3Pjq/TKSWyoE7HwwhNtRDi             | 3gCOO2Sehj1YengXOg== | BWU=  | gw==     | yHU=     | 1hw=                 | /bdo                 | lItkr3eWwSNvBra5                                     | fl5SaypVdTKbFg== | pQ23     | Pt8H     |
